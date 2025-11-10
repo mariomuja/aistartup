@@ -9,3 +9,5 @@ dist/
 .env
 .env.local
 
+# Keep public directory for deployment
+!public/
