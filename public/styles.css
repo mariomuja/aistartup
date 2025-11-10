@@ -385,6 +385,44 @@ section {
     }
 }
 
+/* Team Section Styles */
+.team-card {
+    transition: all 0.3s ease;
+    border-radius: 15px;
+    overflow: hidden;
+}
+
+.team-card:hover {
+    transform: translateY(-10px);
+    box-shadow: 0 20px 40px rgba(0, 0, 0, 0.15) !important;
+}
+
+.team-photo {
+    width: 180px;
+    height: 180px;
+    margin: 0 auto;
+    overflow: hidden;
+    border-radius: 50%;
+    border: 5px solid #f8f9fa;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+}
+
+.team-photo img {
+    width: 100%;
+    height: 100%;
+    object-fit: cover;
+}
+
+.team-card .text-primary {
+    font-weight: 600;
+    font-size: 0.9rem;
+}
+
+.team-card h5 {
+    font-weight: 700;
+    color: var(--dark-color);
+}
+
 /* Legal Page Styles */
 .legal-page {
     padding-top: 80px;

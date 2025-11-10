@@ -88,6 +88,10 @@ const translations = {
             globalLabel: "Global Reach",
             globalText: "Serving enterprises worldwide"
         },
+        team: {
+            title: "Meet Our Team",
+            subtitle: "Expert developers leveraging AI to deliver exceptional results"
+        },
         footer: {
             copyright: "© 2025 AI Startup. All rights reserved.",
             powered: "Powered by Artificial Intelligence & Human Expertise",
@@ -182,6 +186,10 @@ const translations = {
             responseText: "Innerhalb von 24 Stunden",
             globalLabel: "Globale Reichweite",
             globalText: "Unternehmen weltweit bedienen"
+        },
+        team: {
+            title: "Unser Team",
+            subtitle: "Experten-Entwickler nutzen KI, um außergewöhnliche Ergebnisse zu liefern"
         },
         footer: {
             copyright: "© 2025 AI Startup. Alle Rechte vorbehalten.",
@@ -278,6 +286,10 @@ const translations = {
             globalLabel: "Alcance global",
             globalText: "Sirviendo empresas en todo el mundo"
         },
+        team: {
+            title: "Conozca a nuestro equipo",
+            subtitle: "Desarrolladores expertos que aprovechan la IA para ofrecer resultados excepcionales"
+        },
         footer: {
             copyright: "© 2025 AI Startup. Todos los derechos reservados.",
             powered: "Impulsado por Inteligencia Artificial y experiencia humana",
@@ -373,6 +385,10 @@ const translations = {
             globalLabel: "Portée mondiale",
             globalText: "Servir des entreprises dans le monde entier"
         },
+        team: {
+            title: "Rencontrez notre équipe",
+            subtitle: "Des développeurs experts tirant parti de l'IA pour offrir des résultats exceptionnels"
+        },
         footer: {
             copyright: "© 2025 AI Startup. Tous droits réservés.",
             powered: "Alimenté par l'Intelligence Artificielle et l'expertise humaine",
@@ -467,6 +483,10 @@ const translations = {
             responseText: "Entro 24 ore",
             globalLabel: "Portata globale",
             globalText: "Servizio alle imprese in tutto il mondo"
+        },
+        team: {
+            title: "Incontra il nostro team",
+            subtitle: "Sviluppatori esperti che sfruttano l'IA per ottenere risultati eccezionali"
         },
         footer: {
             copyright: "© 2025 AI Startup. Tutti i diritti riservati.",
