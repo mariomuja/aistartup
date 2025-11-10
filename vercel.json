@@ -1,12 +1,14 @@
 {
   "version": 2,
-  "builds": [
-    {
-      "src": "index.html",
-      "use": "@vercel/static"
-    }
-  ],
   "routes": [
+    {
+      "src": "/impressum.html",
+      "dest": "/impressum.html"
+    },
+    {
+      "src": "/(.*\\.(js|css|json))",
+      "dest": "/$1"
+    },
     {
       "src": "/(.*)",
       "dest": "/$1"
