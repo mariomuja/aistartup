@@ -1,15 +1,17 @@
 // i18n initialization and translation handling
 (function() {
+    // Supported languages
+    const supportedLanguages = ['en', 'de', 'es', 'fr', 'it'];
+    
     // Detect browser language
     function detectLanguage() {
         const browserLang = navigator.language || navigator.userLanguage;
         const langCode = browserLang.substring(0, 2).toLowerCase();
         
-        // Supported languages
-        const supportedLanguages = ['en', 'de', 'es', 'fr', 'it'];
-        
-        // Return supported language or default to English
-        return supportedLanguages.includes(langCode) ? langCode : 'en';
+        return {
+            langCode: langCode,
+            isSupported: supportedLanguages.includes(langCode)
+        };
     }
 
     // Get translation by path (e.g., "hero.title")
@@ -58,13 +60,40 @@
     function init() {
         // Get language from localStorage or detect
         const savedLang = localStorage.getItem('preferredLanguage');
-        const lang = savedLang || detectLanguage();
         
-        // Translate the page
-        translatePage(lang);
-        
-        // Add language selector if needed
-        createLanguageSelector(lang);
+        if (savedLang && supportedLanguages.includes(savedLang)) {
+            // User has manually selected a language - use it
+            translatePage(savedLang);
+            createLanguageSelector(savedLang);
+        } else {
+            // Auto-detect browser language
+            const detected = detectLanguage();
+            
+            if (detected.isSupported) {
+                // Browser language is supported - translate the page
+                translatePage(detected.langCode);
+                createLanguageSelector(detected.langCode);
+            } else {
+                // Browser language not supported - keep English but set lang attribute
+                // This allows Chrome's automatic translation to work
+                document.documentElement.setAttribute('lang', 'en');
+                document.documentElement.setAttribute('data-browser-lang', detected.langCode);
+                
+                // Add meta tag to suggest translation to Chrome
+                const meta = document.createElement('meta');
+                meta.name = 'google';
+                meta.content = 'notranslate';
+                // We actually want translation, so we remove the notranslate after a moment
+                // This trick helps Chrome detect the language mismatch
+                document.head.appendChild(meta);
+                setTimeout(() => {
+                    meta.remove();
+                }, 100);
+                
+                // Still show language selector with English selected
+                createLanguageSelector('en');
+            }
+        }
     }
 
     // Create a simple language selector
@@ -106,6 +135,14 @@
             link.addEventListener('click', (e) => {
                 e.preventDefault();
                 const newLang = e.target.getAttribute('data-lang');
+                
+                // Remove any Chrome translation meta tags
+                const noTranslateMeta = document.querySelector('meta[name="google"][content="notranslate"]');
+                if (noTranslateMeta) {
+                    noTranslateMeta.remove();
+                }
+                
+                // Apply our translation
                 translatePage(newLang);
                 
                 // Update dropdown
