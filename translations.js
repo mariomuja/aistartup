@@ -113,7 +113,7 @@ const translations = {
         hero: {
             title: "Unternehmenslösungen",
             titleGradient: "Angetrieben von KI",
-            subtitle: "Wir schreiben keinen Code von Hand. Wir nutzen modernste KI-Tools kombiniert mit jahrzehntelanger Software-Engineering-Expertise, um Enterprise-Anwendungen in Tagen statt Monaten zu liefern.",
+            subtitle: "Wir schreiben keinen Code von Hand. Wir nutzen modernste KI-Tools kombiniert mit jahrzehntelanger Software-Engineering-Expertise, um Enterprise-Lösungen in Tagen statt Monaten zu liefern.",
             getStarted: "Jetzt starten",
             learnMore: "Mehr erfahren",
             stat1: "90%",
