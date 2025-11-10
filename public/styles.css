@@ -150,22 +150,22 @@ html {
         repeating-linear-gradient(
             0deg,
             rgba(255, 255, 255, 0) 0px,
-            rgba(255, 255, 255, 0.15) 1px,
-            rgba(255, 255, 255, 0) 2px,
-            transparent 50px
+            rgba(255, 255, 255, 0.4) 2px,
+            rgba(255, 255, 255, 0) 4px,
+            transparent 40px
         ),
         /* Vertical lines */
         repeating-linear-gradient(
             90deg,
             rgba(255, 255, 255, 0) 0px,
-            rgba(255, 255, 255, 0.15) 1px,
-            rgba(255, 255, 255, 0) 2px,
-            transparent 50px
+            rgba(255, 255, 255, 0.4) 2px,
+            rgba(255, 255, 255, 0) 4px,
+            transparent 40px
         );
     border-radius: 50%;
-    mask-image: radial-gradient(circle, black 30%, transparent 70%);
-    -webkit-mask-image: radial-gradient(circle, black 30%, transparent 70%);
-    opacity: 0.3;
+    mask-image: radial-gradient(circle, black 40%, transparent 70%);
+    -webkit-mask-image: radial-gradient(circle, black 40%, transparent 70%);
+    opacity: 0.5;
     z-index: 0;
 }
 
