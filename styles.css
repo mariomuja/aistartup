@@ -188,9 +188,9 @@ html {
 
 .floating-card {
     position: absolute;
-    background: rgba(255, 255, 255, 0.1);
-    backdrop-filter: blur(10px);
-    border: 1px solid rgba(255, 255, 255, 0.2);
+    background: transparent;
+    backdrop-filter: none;
+    border: 2px solid rgba(255, 255, 255, 0.3);
     border-radius: 15px;
     padding: 1.5rem;
     display: flex;
@@ -198,7 +198,7 @@ html {
     gap: 1rem;
     font-weight: 600;
     animation: float 3s ease-in-out infinite;
-    box-shadow: 0 10px 30px rgba(0, 0, 0, 0.2);
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.3);
     z-index: 2;
 }
 
