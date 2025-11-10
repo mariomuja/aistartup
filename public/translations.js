@@ -20,10 +20,10 @@ const translations = {
             stat2Label: "Quality Standards",
             stat3: "24/7",
             stat3Label: "AI-Powered Support",
-            card1: "AI-Generated Code",
-            card2: "Enterprise Quality",
-            card3: "Lightning Fast",
-            card4: "Smart Architecture"
+            card1: "System Integration",
+            card2: "Dynamics 365 Extensions",
+            card3: "Android Apps",
+            card4: "and much more ..."
         },
         services: {
             title: "What We Do",
@@ -119,10 +119,10 @@ const translations = {
             stat2Label: "Qualitätsstandards",
             stat3: "24/7",
             stat3Label: "KI-gestützter Support",
-            card1: "KI-generierter Code",
-            card2: "Enterprise-Qualität",
-            card3: "Blitzschnell",
-            card4: "Intelligente Architektur"
+            card1: "System-Integration",
+            card2: "Dynamics 365 Extensions",
+            card3: "Android Apps",
+            card4: "und vieles mehr ..."
         },
         services: {
             title: "Was wir tun",
@@ -218,10 +218,10 @@ const translations = {
             stat2Label: "Estándares de calidad",
             stat3: "24/7",
             stat3Label: "Soporte impulsado por IA",
-            card1: "Código generado por IA",
-            card2: "Calidad empresarial",
-            card3: "Ultrarrápido",
-            card4: "Arquitectura inteligente"
+            card1: "Integración de sistemas",
+            card2: "Dynamics 365 Extensions",
+            card3: "Android Apps",
+            card4: "y mucho más ..."
         },
         services: {
             title: "Lo que hacemos",
@@ -317,10 +317,10 @@ const translations = {
             stat2Label: "Normes de qualité",
             stat3: "24/7",
             stat3Label: "Support alimenté par l'IA",
-            card1: "Code généré par l'IA",
-            card2: "Qualité d'entreprise",
-            card3: "Ultra rapide",
-            card4: "Architecture intelligente"
+            card1: "Intégration de systèmes",
+            card2: "Dynamics 365 Extensions",
+            card3: "Android Apps",
+            card4: "et bien plus encore ..."
         },
         services: {
             title: "Ce que nous faisons",
@@ -416,10 +416,10 @@ const translations = {
             stat2Label: "Standard di qualità",
             stat3: "24/7",
             stat3Label: "Supporto alimentato dall'IA",
-            card1: "Codice generato dall'IA",
-            card2: "Qualità aziendale",
-            card3: "Fulmineo",
-            card4: "Architettura intelligente"
+            card1: "Integrazione di sistemi",
+            card2: "Dynamics 365 Extensions",
+            card3: "Android Apps",
+            card4: "e molto altro ..."
         },
         services: {
             title: "Cosa facciamo",
