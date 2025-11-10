@@ -6,6 +6,7 @@ const translations = {
             services: "Services",
             howItWorks: "How It Works",
             capabilities: "Capabilities",
+            team: "Our Team",
             contact: "Contact"
         },
         hero: {
@@ -106,6 +107,7 @@ const translations = {
             services: "Dienstleistungen",
             howItWorks: "So funktioniert's",
             capabilities: "Fähigkeiten",
+            team: "Unser Team",
             contact: "Kontakt"
         },
         hero: {
@@ -206,6 +208,7 @@ const translations = {
             services: "Servicios",
             howItWorks: "Cómo funciona",
             capabilities: "Capacidades",
+            team: "Nuestro Equipo",
             contact: "Contacto"
         },
         hero: {
@@ -306,6 +309,7 @@ const translations = {
             services: "Services",
             howItWorks: "Comment ça marche",
             capabilities: "Capacités",
+            team: "Notre Équipe",
             contact: "Contact"
         },
         hero: {
@@ -406,6 +410,7 @@ const translations = {
             services: "Servizi",
             howItWorks: "Come funziona",
             capabilities: "Capacità",
+            team: "Il Nostro Team",
             contact: "Contatto"
         },
         hero: {
