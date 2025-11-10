@@ -404,7 +404,42 @@ html {
 /* Responsive Design */
 @media (max-width: 991px) {
     .hero-illustration {
-        display: none;
+        height: 350px;
+        margin-top: 3rem;
+    }
+    
+    .hero-illustration::before {
+        width: 350px;
+        height: 350px;
+    }
+    
+    .floating-card {
+        padding: 1rem;
+        font-size: 0.85rem;
+    }
+    
+    .floating-card i {
+        font-size: 1.5rem;
+    }
+    
+    .card-1 {
+        top: 5%;
+        left: 5%;
+    }
+    
+    .card-2 {
+        top: 25%;
+        right: 5%;
+    }
+    
+    .card-3 {
+        top: 50%;
+        left: 0%;
+    }
+    
+    .card-4 {
+        bottom: 5%;
+        right: 10%;
     }
     
     .tech-grid {
@@ -421,12 +456,65 @@ html {
         font-size: 2rem;
     }
     
-    .tech-grid {
-        grid-template-columns: 1fr;
+    .hero-illustration {
+        height: 300px;
+        margin-top: 2rem;
+    }
+    
+    .hero-illustration::before {
+        width: 280px;
+        height: 280px;
+        background-image: 
+            /* Horizontal lines */
+            repeating-linear-gradient(
+                0deg,
+                rgba(255, 255, 255, 0) 0px,
+                rgba(255, 255, 255, 0.4) 2px,
+                rgba(255, 255, 255, 0) 4px,
+                transparent 35px
+            ),
+            /* Vertical lines */
+            repeating-linear-gradient(
+                90deg,
+                rgba(255, 255, 255, 0) 0px,
+                rgba(255, 255, 255, 0.4) 2px,
+                rgba(255, 255, 255, 0) 4px,
+                transparent 35px
+            );
     }
     
     .floating-card {
-        display: none;
+        padding: 0.75rem;
+        font-size: 0.75rem;
+        gap: 0.5rem;
+    }
+    
+    .floating-card i {
+        font-size: 1.2rem;
+    }
+    
+    .card-1 {
+        top: 0%;
+        left: 0%;
+    }
+    
+    .card-2 {
+        top: 20%;
+        right: 0%;
+    }
+    
+    .card-3 {
+        bottom: 35%;
+        left: 0%;
+    }
+    
+    .card-4 {
+        bottom: 0%;
+        right: 5%;
+    }
+    
+    .tech-grid {
+        grid-template-columns: 1fr;
     }
 }
 
