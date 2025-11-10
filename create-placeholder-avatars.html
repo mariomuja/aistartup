@@ -1,0 +1,65 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>Generate Team Avatar Placeholders</title>
+</head>
+<body>
+    <h1>Team Avatar Placeholder Generator</h1>
+    <p>Right-click each avatar and "Save image as..." with the correct filename</p>
+    
+    <div style="display: flex; gap: 20px; flex-wrap: wrap;">
+        <div style="text-align: center;">
+            <h3>Sarah Chen</h3>
+            <canvas id="sarah" width="400" height="400"></canvas>
+            <p>Save as: sarah-chen.jpg</p>
+        </div>
+        
+        <div style="text-align: center;">
+            <h3>Alexander Kovač</h3>
+            <canvas id="alexander" width="400" height="400"></canvas>
+            <p>Save as: alexander-kovac.jpg</p>
+        </div>
+        
+        <div style="text-align: center;">
+            <h3>Luca Martinelli</h3>
+            <canvas id="luca" width="400" height="400"></canvas>
+            <p>Save as: luca-martinelli.jpg</p>
+        </div>
+    </div>
+
+    <script>
+        function createAvatar(canvasId, colors, initial) {
+            const canvas = document.getElementById(canvasId);
+            const ctx = canvas.getContext('2d');
+            
+            // Create gradient background
+            const gradient = ctx.createLinearGradient(0, 0, 400, 400);
+            gradient.addColorStop(0, colors[0]);
+            gradient.addColorStop(1, colors[1]);
+            
+            // Fill background
+            ctx.fillStyle = gradient;
+            ctx.fillRect(0, 0, 400, 400);
+            
+            // Add circle overlay
+            ctx.fillStyle = 'rgba(255, 255, 255, 0.1)';
+            ctx.beginPath();
+            ctx.arc(200, 150, 80, 0, Math.PI * 2);
+            ctx.fill();
+            
+            // Add initial
+            ctx.fillStyle = 'white';
+            ctx.font = 'bold 120px Arial';
+            ctx.textAlign = 'center';
+            ctx.textBaseline = 'middle';
+            ctx.fillText(initial, 200, 200);
+        }
+        
+        // Generate avatars
+        createAvatar('sarah', ['#667eea', '#764ba2'], 'SC');
+        createAvatar('alexander', ['#f093fb', '#f5576c'], 'AK');
+        createAvatar('luca', ['#4facfe', '#00f2fe'], 'LM');
+    </script>
+</body>
+</html>
+
