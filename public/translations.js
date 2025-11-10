@@ -24,7 +24,7 @@ const translations = {
             card1: "System Integration",
             card2: "Dynamics 365 Extensions",
             card3: "Android Apps",
-            card4: "and much more ..."
+            card4: "and much more"
         },
         services: {
             title: "What We Do",
@@ -125,7 +125,7 @@ const translations = {
             card1: "System-Integration",
             card2: "Dynamics 365 Extensions",
             card3: "Android Apps",
-            card4: "und vieles mehr ..."
+            card4: "und vieles mehr"
         },
         services: {
             title: "Was wir tun",
@@ -226,7 +226,7 @@ const translations = {
             card1: "Integración de sistemas",
             card2: "Dynamics 365 Extensions",
             card3: "Android Apps",
-            card4: "y mucho más ..."
+            card4: "y mucho más"
         },
         services: {
             title: "Lo que hacemos",
@@ -327,7 +327,7 @@ const translations = {
             card1: "Intégration de systèmes",
             card2: "Dynamics 365 Extensions",
             card3: "Android Apps",
-            card4: "et bien plus encore ..."
+            card4: "et bien plus encore"
         },
         services: {
             title: "Ce que nous faisons",
@@ -428,7 +428,7 @@ const translations = {
             card1: "Integrazione di sistemi",
             card2: "Dynamics 365 Extensions",
             card3: "Android Apps",
-            card4: "e molto altro ..."
+            card4: "e molto altro"
         },
         services: {
             title: "Cosa facciamo",
