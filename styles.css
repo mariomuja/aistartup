@@ -385,3 +385,45 @@ section {
     }
 }
 
+/* Legal Page Styles */
+.legal-page {
+    padding-top: 80px;
+    min-height: 100vh;
+    background: linear-gradient(135deg, #f8f9fa 0%, #e9ecef 100%);
+}
+
+.legal-content {
+    background: white;
+    padding: 2rem;
+    border-radius: 15px;
+    box-shadow: 0 5px 20px rgba(0, 0, 0, 0.1);
+    margin-bottom: 2rem;
+}
+
+.legal-content h3 {
+    color: var(--primary-color);
+    font-weight: 600;
+}
+
+.legal-content h4 {
+    color: var(--dark-color);
+    font-weight: 600;
+}
+
+.legal-content a {
+    color: var(--primary-color);
+    text-decoration: none;
+}
+
+.legal-content a:hover {
+    text-decoration: underline;
+}
+
+.legal-content ul {
+    padding-left: 2rem;
+}
+
+.legal-content ul li {
+    margin-bottom: 0.5rem;
+}
+
