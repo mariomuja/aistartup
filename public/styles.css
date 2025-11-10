@@ -122,6 +122,15 @@ html {
     background: rgba(255, 255, 255, 0.1);
 }
 
+.stat-box h3 {
+    color: white !important;
+}
+
+.stat-box p {
+    color: white !important;
+    opacity: 0.9;
+}
+
 /* Hero Illustration */
 .hero-illustration {
     position: relative;
