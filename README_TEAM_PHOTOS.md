@@ -104,3 +104,4 @@ You need to create and download 3 AI-generated faces for these fictional team me
 Need help? The team section HTML is already complete in `public/index.html` 
 and will automatically display the photos once you add them!
 
+

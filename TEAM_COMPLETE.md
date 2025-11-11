@@ -66,3 +66,4 @@ The team section is located just before the footer on the homepage.
 
 No AI-generated faces needed - you have a complete real team!
 
+

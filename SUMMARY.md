@@ -117,3 +117,4 @@ The website is live, but the 3 team member images will show as broken/missing un
 
 **Current Status**: Website live with your photo ✅ | 3 team photos pending ⏳
 
+
